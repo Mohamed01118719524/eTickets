@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Migrations\20210521151101_Initial.cs" />
+    <Content Include="Migrations\20210521151101_Initial.Designer.cs" />
+    <Content Include="Migrations\20210521151534_NameFixProducer.cs" />
+    <Content Include="Migrations\20210521151534_NameFixProducer.Designer.cs" />
+    <Content Include="Migrations\20210926144211_Order_And_OrderItem_Added.cs" />
+    <Content Include="Migrations\20210926144211_Order_And_OrderItem_Added.Designer.cs" />
+    <Content Include="Migrations\20210926145215_ShoppingCartItems_Added.cs" />
+    <Content Include="Migrations\20210926145215_ShoppingCartItems_Added.Designer.cs" />
+    <Content Include="Migrations\20211005103511_Identity_Added.cs" />
+    <Content Include="Migrations\20211005103511_Identity_Added.Designer.cs" />
+    <Content Include="Migrations\AppDbContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+</Project>
